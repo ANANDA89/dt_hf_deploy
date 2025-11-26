@@ -32,7 +32,7 @@ jobs:
           # 🔴 CHANGE THIS to your real Hugging Face Space id
           #   format: "<hf-username>/<space-name>"
           #   example: "ANANDA89/dt_hf_deploy"
-          repo_id = "Bulkaiii>/<decision-tree-cart"
+          repo_id = "Bulkaiii/decision-tree-cart"
 
           api = HfApi()
 
