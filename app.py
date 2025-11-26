@@ -61,11 +61,12 @@ demo = gr.Interface(
 # ... keep all imports, model loading, predict(), inputs, outputs, demo = gr.Interface(...)
 
 if __name__ == "__main__":
-    print("✅ Starting Gradio app...")
-    demo.launch(
-        server_name="0.0.0.0",  # local only
-        # server_port=7860,         # fixed port
-        share=False               # no public link, just local
-    )
-    print("❌ Gradio app stopped")  # will print only after you CTRL+C
+    demo.launch()
+    # print("✅ Starting Gradio app...")
+    # demo.launch(
+    #     server_name="0.0.0.0",  # local only
+    #     # server_port=7860,         # fixed port
+    #     share=False               # no public link, just local
+    # )
+    # print("❌ Gradio app stopped")  # will print only after you CTRL+C
 
